@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather APP</title>
+  </head>
+  <body>
+    <div class="weather-title">
+      <h3>Weather APP</h3>
+      <input type="text" placeholder="Enter City" />
+      <button type="submit" id="submitBtn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+    <div class="final-error">Error</div>
+    <div class="main-container">
+      <div class="top">
+            <div class="icons">
+                <i class="fa-solid fa-circle"></i>
+                <i class="fa-solid fa-cloud"></i>
+                <i class="fa-solid fa-cloud cloud2"></i>
+            </div>
+        </div>
+      <div class="content"></div>
+    </div>
+
+    <script src="weatherapi.js"></script>
+  </body>
+</html>
